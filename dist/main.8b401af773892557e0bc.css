@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Quicksand";
-  src: url(57a190d66d8c4fb9b2cfd9e7cde92e9b.svg);
+  src: url(images/57a190d66d8c4fb9b2cfd9e7cde92e9b.svg);
   src: url(fonts/316c232187bac46e708fad0b5d83666f.ttf);
   src: url(fonts/51ebfe911f7068e79a29ed40fda7853d.woff);
 
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Quicksand";
-  src: url(5f8cb9d50713aaccbd9382d6ff6b7630.svg) format("svg");
+  src: url(images/5f8cb9d50713aaccbd9382d6ff6b7630.svg) format("svg");
   src: url(fonts/3cd49fcca0fcaa042649d15bab54199e.ttf) format("truetype");
   src: url(fonts/fbf4b0ad2dae4a0809fea0f50f3373a8.woff) format("woff");
 
@@ -28,7 +28,7 @@ p {
 }
 
 .logo {
-  background-image: url(090cd2294c6641b1dfbf1eb6c89e9bd0.png);
+  background-image: url(images/090cd2294c6641b1dfbf1eb6c89e9bd0.png);
   background-size: cover;
   height: 100px;
   width: 100px;
