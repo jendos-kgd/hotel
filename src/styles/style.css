@@ -1,0 +1,19 @@
+@import "~normalize.css";
+@import "quicksand.css";
+
+p {
+  font-size: 26px;
+  color: blue;
+  padding-top: 2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.logo {
+  background-image: url("../assets/Vector.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}

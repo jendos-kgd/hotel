@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url(8d2bb8b7524e2d2996e686af1a8d93fb.svg);
+  src: url(316c232187bac46e708fad0b5d83666f.ttf);
+  src: url(51ebfe911f7068e79a29ed40fda7853d.woff);
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url(a562e84049e89d871d797525f062bf24.svg) format("svg");
+  src: url(3cd49fcca0fcaa042649d15bab54199e.ttf) format("truetype");
+  src: url(fbf4b0ad2dae4a0809fea0f50f3373a8.woff) format("woff");
+
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  font-size: 26px;
+  color: blue;
+  padding-top: 2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.logo {
+  background-image: url(090cd2294c6641b1dfbf1eb6c89e9bd0.png);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
