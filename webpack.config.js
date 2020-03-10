@@ -44,7 +44,10 @@ module.exports = {
       },
       {
         test: /\.(ttf|svg|woff)$/,
-        use: ['file-loader']
+        loader: 'file-loader',
+        options: {
+          outputPath: 'fonts'
+        }
       }
     ]
   }

@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Quicksand";
-  src: url(8d2bb8b7524e2d2996e686af1a8d93fb.svg);
-  src: url(316c232187bac46e708fad0b5d83666f.ttf);
-  src: url(51ebfe911f7068e79a29ed40fda7853d.woff);
+  src: url(57a190d66d8c4fb9b2cfd9e7cde92e9b.svg);
+  src: url(fonts/316c232187bac46e708fad0b5d83666f.ttf);
+  src: url(fonts/51ebfe911f7068e79a29ed40fda7853d.woff);
 
   font-weight: normal;
   font-style: normal;
@@ -10,9 +10,9 @@
 
 @font-face {
   font-family: "Quicksand";
-  src: url(a562e84049e89d871d797525f062bf24.svg) format("svg");
-  src: url(3cd49fcca0fcaa042649d15bab54199e.ttf) format("truetype");
-  src: url(fbf4b0ad2dae4a0809fea0f50f3373a8.woff) format("woff");
+  src: url(5f8cb9d50713aaccbd9382d6ff6b7630.svg) format("svg");
+  src: url(fonts/3cd49fcca0fcaa042649d15bab54199e.ttf) format("truetype");
+  src: url(fonts/fbf4b0ad2dae4a0809fea0f50f3373a8.woff) format("woff");
 
   font-weight: bold;
   font-style: normal;
