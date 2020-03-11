@@ -1,0 +1,24 @@
+// @import "~normalize.css"; //подстраивает стили всех дефолтных элементов под 1 стиль во всех браузерах
+@import "reset.scss";
+@import "quicksand.css";
+
+$color1: blue;
+$fz: 30px;
+$font1: "Quicksand", sans-serif;
+
+p {
+  font-size: $fz;
+  color: $color1;
+  padding-top: 2rem;
+  font-family: $font1;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.logo {
+  background-image: url("../assets/Vector.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}

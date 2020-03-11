@@ -1,5 +1,5 @@
 import * as $  from 'jquery'
-import './styles/style.css'
+import './styles/styles.scss'
 import Vector from './assets/Vector.png'
 
 let a = 7
