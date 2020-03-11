@@ -49,7 +49,7 @@ module.exports = {
   optimization: optimization(), //Применяем функцию оптимизации optimization()
   plugins: [
     new HTMLWebpackPlugin({
-      template: './index.html', //выходной файл html
+      template: './index.pug', //входной файл html(pug) (в папке /src)
       minify: {
         collapseWhitespace: isProd  //Сжимаем html в продакшн
       }
@@ -61,6 +61,13 @@ module.exports = {
   ],
   module: {
     rules: [
+      {
+        test: /\.pug$/, // что делать с pug файлами
+        loader: 'pug-loader',
+        options: {
+          pretty: true
+        }
+      },
       {
         test: /\.s[ac]ss$/,
         use: [
