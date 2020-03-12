@@ -1,0 +1,64 @@
+@import "../../styles/reset.scss";
+@import "../../styles/quicksand.css";
+
+$font: "Quicksand", sans-serif;
+$dark100: #1F2041;
+$dark75: rgba(31, 32, 65, 0.75);
+$dark50: rgba(31, 32, 65, 0.50);
+$dark25: rgba(31, 32, 65, 0.25);
+$dark5: rgba(31, 32, 65, 0.05);
+$purple: #BC9CFF;
+$green: #6FCF97;
+
+html {
+  width: 1440px;
+  height: 900px;
+}
+.main_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .colors_visual {
+    margin-left: 150px;
+    margin-top: 145px;
+  }
+  .block {
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    &.dark_100 {
+      background-color: $dark100;
+    }
+    &.dark_75 {
+      background-color: $dark75;
+    }
+    &.dark_50 {
+      background-color: $dark50;
+    }
+    &.dark_25 {
+      background-color: $dark25;
+    }
+    &.dark_5 {
+      background-color: $dark5;
+    }
+    &.purple {
+      background-color: $purple;
+    }
+    &.green {
+      background-color: $green;
+    }
+  }
+  .colors_describe {
+    font-family: $font;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 19px;
+    margin-top: 145px;
+    margin-left: 40px;
+    line-height: 29px;
+    p {
+      padding-bottom: 33px;
+    }
+  }
+}
