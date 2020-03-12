@@ -87,14 +87,14 @@ module.exports = {
         test: /\.(png|jpg|gif)$/, // что делать с картинками
         loader: 'file-loader',
         options: {
-          outputPath: 'images'
+          outputPath: 'src/images'
         }
       },
       {
         test: /\.(ttf|svg|woff)$/, // что делать со шрифтами
         loader: 'file-loader',
         options: {
-          outputPath: 'fonts'
+          outputPath: 'src/fonts'
         }
       }
     ]
