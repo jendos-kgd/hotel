@@ -23,7 +23,6 @@ html {
   .colors_visual {
     margin-left: 150px;
     margin-top: 145px;
-    border: 1px solid red; //temp
   }
   .block {
     margin-bottom: 20px;
@@ -60,16 +59,23 @@ html {
     margin-top: 145px;
     margin-left: 40px;
     line-height: 29px;
-    width: 160px;
-    border: 1px solid blue; //temp
+    width: 165px;
+    .describe_container {
+      height: 70px;
+      margin-bottom: 20px;
+      .color_index {
+        font-weight: normal;
+      }
+    }
     p {
-      padding-bottom: 33px;
+      vertical-align: middle;
+      padding-top: 7px;
+
     }
   }
   .tegs_name {
     margin-top: 145px;
-    margin-left: 435px;
-    border: 1px solid green; //temp
+    margin-left: 421px;
     font-family: $fontM;
     font-style: normal;
     font-weight: normal;
@@ -99,7 +105,6 @@ html {
     }
   }
   .fonts_example {
-    border: 1px solid pink; //temp
     margin-top: 145px;
     margin-left: 30px;
     width: 336px;
@@ -136,7 +141,7 @@ html {
       font-size: 14px;
       line-height: 24px;
       color: $dark75;
-      margin-top: 50px;
+      margin-top: 46px;
       width: 301px;
     }
   }
