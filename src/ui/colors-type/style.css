@@ -1,4 +1,5 @@
 @import "../../styles/quicksand.css";
+@import "../../styles/montserrat.css";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,6 +62,7 @@ html {
 .main_container .colors_visual {
   margin-left: 150px;
   margin-top: 145px;
+  border: 1px solid red;
 }
 .main_container .block {
   margin-bottom: 20px;
@@ -97,9 +99,85 @@ html {
   margin-top: 145px;
   margin-left: 40px;
   line-height: 29px;
+  width: 160px;
+  border: 1px solid blue;
 }
 .main_container .colors_describe p {
   padding-bottom: 33px;
+}
+.main_container .tegs_name {
+  margin-top: 145px;
+  margin-left: 435px;
+  border: 1px solid green;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.25);
+  width: 37px;
+}
+.main_container .tegs_name > p {
+  text-align: right;
+}
+.main_container .tegs_name .H1 {
+  font-size: 24px;
+  line-height: 29px;
+}
+.main_container .tegs_name .H2 {
+  font-size: 19px;
+  line-height: 23px;
+  margin-top: 80px;
+}
+.main_container .tegs_name .H3 {
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 74px;
+}
+.main_container .tegs_name .BODY {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+.main_container .fonts_example {
+  border: 1px solid pink;
+  margin-top: 145px;
+  margin-left: 30px;
+  width: 336px;
+}
+.main_container .fonts_example .H1_text {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+.main_container .fonts_example .H2_text {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+.main_container .fonts_example .H3_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+  margin-top: 50px;
+}
+.main_container .fonts_example .BODY_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  margin-top: 50px;
+  width: 301px;
 }
 
 /*# sourceMappingURL=style.css.map */

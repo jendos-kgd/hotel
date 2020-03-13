@@ -1,7 +1,9 @@
 @import "../../styles/reset.scss";
 @import "../../styles/quicksand.css";
+@import "../../styles/montserrat.css";
 
-$font: "Quicksand", sans-serif;
+$fontQ: "Quicksand", sans-serif;
+$fontM: "Montserrat", sans-serif;
 $dark100: #1F2041;
 $dark75: rgba(31, 32, 65, 0.75);
 $dark50: rgba(31, 32, 65, 0.50);
@@ -21,6 +23,7 @@ html {
   .colors_visual {
     margin-left: 150px;
     margin-top: 145px;
+    border: 1px solid red; //temp
   }
   .block {
     margin-bottom: 20px;
@@ -50,15 +53,91 @@ html {
     }
   }
   .colors_describe {
-    font-family: $font;
+    font-family: $fontQ;
     font-weight: bold;
     font-style: normal;
     font-size: 19px;
     margin-top: 145px;
     margin-left: 40px;
     line-height: 29px;
+    width: 160px;
+    border: 1px solid blue; //temp
     p {
       padding-bottom: 33px;
+    }
+  }
+  .tegs_name {
+    margin-top: 145px;
+    margin-left: 435px;
+    border: 1px solid green; //temp
+    font-family: $fontM;
+    font-style: normal;
+    font-weight: normal;
+    color: $dark25;
+    width: 37px;
+    > p {
+      text-align: right;
+    }
+    .H1 {
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .H2 {
+      font-size: 19px;
+      line-height: 23px;
+      margin-top: 80px;
+    }
+    .H3 {
+      font-size: 12px;
+      line-height: 15px;
+      margin-top: 74px;
+    }
+    .BODY {
+      font-size: 14px;
+      line-height: 24px;
+      margin-top: 50px;
+    }
+  }
+  .fonts_example {
+    border: 1px solid pink; //temp
+    margin-top: 145px;
+    margin-left: 30px;
+    width: 336px;
+    .H1_text {
+      font-family: $fontQ;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 30px;
+      color: $dark100;
+    }
+    .H2_text {
+      font-family: $fontQ;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;
+      line-height: 24px;
+      margin-top: 50px;
+    }
+    .H3_text {
+      font-family: $fontM;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: $dark100;
+      margin-top: 50px;
+    }
+    .BODY_text {
+      font-family: $fontM;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: $dark75;
+      margin-top: 50px;
+      width: 301px;
     }
   }
 }
