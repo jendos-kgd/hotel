@@ -1,23 +1,6 @@
 link(rel="stylesheet", href="unlogin.css")
 .unlogin_block 
-  img(src="../assets/images/logo.svg", class="logo")
-  img(src="../assets/images/toxin.svg", class="toxin")  
-  ul.nav
-    li 
-      a(href="#", class="active") Home
-    li
-      a(href="#") About Us
-    li.sub
-      a(href="#") Services
-      img(src="../assets/images/expand.svg")
-      ul.sub_menu
-    li
-      a(href="#", class="after_sub_menu") Careers
-    li
-      a(href="#") News
-    li
-      a(href="#") Documentation
-      
+  include nav_bar.pug  
   form
     button.log_btn login
 
