@@ -1,6 +1,7 @@
 @import "../styles/reset.scss";
 @import "../styles/montserrat.css";
 @import "../styles/variables.scss";
+@import "nav_bar.scss";
 
 %button {
   height: 34px;
@@ -14,74 +15,17 @@
   font-size: 12px;
   line-height: 15px;
 }
-
-.unlogin_block {
-  width: 1440px;
-  height: 70px;
-  display: flex;
-  justify-content: flex-end;
-  .logo {
-    position: absolute;
-    left: 140px;
-    top: 15px;
-  }
-  .toxin {
-    position: absolute;
-    left: 192px;
-    top: 28.33px;
-  }
-  .nav {
-    margin-top: 27px;
-    margin-right: 30px;
-    list-style: none;
-    li {
-      display: inline-block;
-      position: relative;
-      .sub_menu {
-        display: none;
-        }
-      a{
-        text-decoration: none;
-        font-family: $fontM;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-        color: $dark50;
-        margin-left: 25px;
-        &.after_sub_menu {
-          margin-left: 20px;
-        }
-        &:hover {
-          .sub_menu {
-            display: block;
-            position: absolute;
-          }
-        }
-        .active {
-          font-weight: bold;
-          color: $dark75;
-        }
-      }
-      img {
-        font-size: 24px;
-        margin-left: 5px;
-      }
-
-    }
-  }
-  .log_btn {
-    @extend %button;
-    margin-right: 20px;
-    width: 79px;
-    background-color: #FFF;
-    color: #BC9CFF;
-  }
-  .reg_btn {
-    @extend %button;
-    margin-right: 140px;
-    width: 101px;
-    background-color: #BC9CFF;
-    color: #FFF;
-  }
+.log_btn {
+  @extend %button;
+  margin-right: 20px;
+  width: 79px;
+  background-color: #FFF;
+  color: #BC9CFF;
+}
+.reg_btn {
+  @extend %button;
+  margin-right: 140px;
+  width: 101px;
+  background-color: #BC9CFF;
+  color: #FFF;
 }

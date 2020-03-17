@@ -98,7 +98,7 @@ table {
   border-spacing: 0;
 }
 
-.nav_block .nav li a {
+.name, .nav_block .nav li a {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -155,31 +155,13 @@ table {
   margin-left: 5px;
 }
 
-.reg_btn, .log_btn {
-  height: 34px;
-  margin-top: 18px;
-  border-radius: 22px;
-  border: 1px solid #BC9CFF;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-}
-
-.log_btn {
-  margin-right: 20px;
-  width: 79px;
-  background-color: #FFF;
-  color: #BC9CFF;
-}
-
-.reg_btn {
+.name {
+  margin-top: 26px;
   margin-right: 140px;
-  width: 101px;
-  background-color: #BC9CFF;
-  color: #FFF;
 }
 
-/*# sourceMappingURL=unlogin.css.map */
+.line {
+  margin-right: 30px;
+}
+
+/*# sourceMappingURL=login.css.map */

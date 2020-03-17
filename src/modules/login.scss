@@ -1,0 +1,13 @@
+@import "../styles/reset.scss";
+@import "../styles/montserrat.css";
+@import "../styles/variables.scss";
+@import "nav_bar.scss";
+
+.name {
+  @extend %text;
+  margin-top: 26px;
+  margin-right: 140px;
+}
+.line {
+  margin-right: 30px;
+}

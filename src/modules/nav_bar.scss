@@ -1,0 +1,64 @@
+@import "../styles/reset.scss";
+@import "../styles/montserrat.css";
+@import "../styles/variables.scss";
+
+%text {
+  font-family: $fontM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: $dark50;
+}
+
+.nav_block {
+  width: 1440px;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  .logo {
+    position: absolute;
+    left: 140px;
+    top: 15px;
+  }
+  .toxin {
+    position: absolute;
+    left: 192px;
+    top: 28.33px;
+  }
+  .nav {
+    margin-top: 27px;
+    margin-right: 30px;
+    list-style: none;
+    li {
+      display: inline-block;
+      position: relative;
+      .sub_menu {
+        display: none;
+        }
+      a{
+        @extend %text;
+        text-decoration: none;
+        margin-left: 25px;
+        &.after_sub_menu {
+          margin-left: 20px;
+        }
+        &:hover {
+          .sub_menu {
+            display: block;
+            position: absolute;
+          }
+        }
+        .active {
+          font-weight: bold;
+          color: $dark75;
+        }
+      }
+      img {
+        font-size: 24px;
+        margin-left: 5px;
+      }
+
+    }
+  }
+}
