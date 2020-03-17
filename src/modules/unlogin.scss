@@ -1,15 +1,50 @@
+@import "../styles/reset.scss";
+@import "../styles/montserrat.css";
+@import "../styles/variables.scss";
+
+%button {
+  height: 34px;
+  margin-top: 18px;
+  margin-left: 27px;
+  border-radius: 22px;
+  border: 1px solid #BC9CFF;
+  text-transform: uppercase;
+  font-family: $fontM;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
 .unlogin_block {
-  width: 100%;
+  width: 1440px;
+  height: 70px;
+  display: flex;
+  .logo {
+    margin-left: 140px;
+  }
+  .toxin {
+    margin-left: 12.5px;
+  }
   .top_menu {
+    margin-left: 270px;
+    margin-top: 27px;
     list-style: none;
     li {
       display: inline-block;
       position: relative;
+      margin-left: 25px;
       .sub_menu {
         display: none;
           }
       a{
         text-decoration: none;
+        font-family: $fontM;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: $dark50;
         }
       &:hover {
         .sub_menu {
@@ -17,16 +52,27 @@
           position: absolute;
         }
       }
+      .active {
+        font-weight: bold;
+        color: $dark75;
+      }
       .angle {
-        width: 24px;
-        height: 21px;
-        align-items: center;
-        text-align: center;
-        fill: blue;
+        font-size: 24px;
+        margin-left: 5px;
       }
     }
   }
-  form {
-    display: inline-block;
+  .log_btn {
+    @extend %button;
+    width: 79px;
+    background-color: #FFF;
+    color: #BC9CFF;
+  }
+  .reg_btn {
+    @extend %button;
+    margin-left: 20px;
+    width: 101px;
+    background-color: #BC9CFF;
+    color: #FFF;
   }
 }
