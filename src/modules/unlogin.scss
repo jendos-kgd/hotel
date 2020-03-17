@@ -1,0 +1,32 @@
+.unlogin_block {
+  width: 100%;
+  .top_menu {
+    list-style: none;
+    li {
+      display: inline-block;
+      position: relative;
+      .sub_menu {
+        display: none;
+          }
+      a{
+        text-decoration: none;
+        }
+      &:hover {
+        .sub_menu {
+          display: block;
+          position: absolute;
+        }
+      }
+      .angle {
+        width: 24px;
+        height: 21px;
+        align-items: center;
+        text-align: center;
+        fill: blue;
+      }
+    }
+  }
+  form {
+    display: inline-block;
+  }
+}
