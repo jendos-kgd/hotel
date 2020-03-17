@@ -5,7 +5,6 @@
 %button {
   height: 34px;
   margin-top: 18px;
-  margin-left: 27px;
   border-radius: 22px;
   border: 1px solid #BC9CFF;
   text-transform: uppercase;
@@ -20,23 +19,27 @@
   width: 1440px;
   height: 70px;
   display: flex;
+  justify-content: flex-end;
   .logo {
-    margin-left: 140px;
+    position: absolute;
+    left: 140px;
+    top: 15px;
   }
   .toxin {
-    margin-left: 12.5px;
+    position: absolute;
+    left: 192px;
+    top: 28.33px;
   }
-  .top_menu {
-    margin-left: 270px;
+  .nav {
     margin-top: 27px;
+    margin-right: 30px;
     list-style: none;
     li {
       display: inline-block;
       position: relative;
-      margin-left: 25px;
       .sub_menu {
         display: none;
-          }
+        }
       a{
         text-decoration: none;
         font-family: $fontM;
@@ -45,32 +48,38 @@
         font-size: 14px;
         line-height: 17px;
         color: $dark50;
+        margin-left: 25px;
+        &.after_sub_menu {
+          margin-left: 20px;
         }
-      &:hover {
-        .sub_menu {
-          display: block;
-          position: absolute;
+        &:hover {
+          .sub_menu {
+            display: block;
+            position: absolute;
+          }
+        }
+        .active {
+          font-weight: bold;
+          color: $dark75;
         }
       }
-      .active {
-        font-weight: bold;
-        color: $dark75;
-      }
-      .angle {
+      img {
         font-size: 24px;
         margin-left: 5px;
       }
+
     }
   }
   .log_btn {
     @extend %button;
+    margin-right: 20px;
     width: 79px;
     background-color: #FFF;
     color: #BC9CFF;
   }
   .reg_btn {
     @extend %button;
-    margin-left: 20px;
+    margin-right: 140px;
     width: 101px;
     background-color: #BC9CFF;
     color: #FFF;

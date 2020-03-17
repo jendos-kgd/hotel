@@ -51,7 +51,6 @@ table {
 .unlogin_block .reg_btn, .unlogin_block .log_btn {
   height: 34px;
   margin-top: 18px;
-  margin-left: 27px;
   border-radius: 22px;
   border: 1px solid #BC9CFF;
   text-transform: uppercase;
@@ -66,27 +65,31 @@ table {
   width: 1440px;
   height: 70px;
   display: flex;
+  justify-content: flex-end;
 }
 .unlogin_block .logo {
-  margin-left: 140px;
+  position: absolute;
+  left: 140px;
+  top: 15px;
 }
 .unlogin_block .toxin {
-  margin-left: 12.5px;
+  position: absolute;
+  left: 192px;
+  top: 28.33px;
 }
-.unlogin_block .top_menu {
-  margin-left: 270px;
+.unlogin_block .nav {
   margin-top: 27px;
+  margin-right: 30px;
   list-style: none;
 }
-.unlogin_block .top_menu li {
+.unlogin_block .nav li {
   display: inline-block;
   position: relative;
-  margin-left: 25px;
 }
-.unlogin_block .top_menu li .sub_menu {
+.unlogin_block .nav li .sub_menu {
   display: none;
 }
-.unlogin_block .top_menu li a {
+.unlogin_block .nav li a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -94,26 +97,31 @@ table {
   font-size: 14px;
   line-height: 17px;
   color: rgba(31, 32, 65, 0.5);
+  margin-left: 25px;
 }
-.unlogin_block .top_menu li:hover .sub_menu {
+.unlogin_block .nav li a.after_sub_menu {
+  margin-left: 20px;
+}
+.unlogin_block .nav li a:hover .sub_menu {
   display: block;
   position: absolute;
 }
-.unlogin_block .top_menu li .active {
+.unlogin_block .nav li a .active {
   font-weight: bold;
   color: rgba(31, 32, 65, 0.75);
 }
-.unlogin_block .top_menu li .angle {
+.unlogin_block .nav li img {
   font-size: 24px;
   margin-left: 5px;
 }
 .unlogin_block .log_btn {
+  margin-right: 20px;
   width: 79px;
   background-color: #FFF;
   color: #BC9CFF;
 }
 .unlogin_block .reg_btn {
-  margin-left: 20px;
+  margin-right: 140px;
   width: 101px;
   background-color: #BC9CFF;
   color: #FFF;
