@@ -1,0 +1,24 @@
+@import "../styles/reset.scss";
+@import "../styles/montserrat.css";
+@import "../styles/variables.scss";
+
+h3 {
+  font-family: $fontM;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.footer_block {
+  width: 1440px;
+  height: 372px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.copyright_block {
+  width: 1440px;
+  height: 70px;
+  border-top: 1px solid $dark50;
+}
