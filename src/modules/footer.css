@@ -58,7 +58,7 @@ body .footer_block .support_block, body .footer_block .about_block, body .footer
 
 a {
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: rgba(31, 32, 65, 0.5);
 }
 
@@ -86,7 +86,7 @@ body .footer_block {
 body .footer_block h3 {
   font: normal bold 12px/15px Montserrat, sans-serif;
   text-transform: uppercase;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 body .footer_block .sign {
   width: 260px;
